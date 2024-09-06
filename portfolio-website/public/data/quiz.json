@@ -99,7 +99,128 @@
         {
             "name": "Synonymes IA",
             "description": "Chaque musique est créée à partir d'une chanson française cependant une partie des mots est changés en synonymes. En plus, la musique n'a aucun rapport avec l'originale. J'ai écrit les textes mais l'audio a été créé par IA avec le site Suno.",
-            "content": []
+            "content": [
+                {
+                    "name": "Aline",
+                    "audio": "/quiz/IAMusic/Chansons/aline.mp3",
+                    "text": "/quiz/IAMusic/Chansons/aline.txt",
+                    "color": "default"
+                },
+                {
+                    "name": "Alors on danse",
+                    "audio": "/quiz/IAMusic/Chansons/alors_on_danse.mp3",
+                    "text": "/quiz/IAMusic/Chansons/alors_on_danse.txt",
+                    "color": "default"
+                },
+                {
+                    "name": "Balance ton quoi",
+                    "audio": "/quiz/IAMusic/Chansons/balance_ton.mp3",
+                    "text": "/quiz/IAMusic/Chansons/balance_ton.txt",
+                    "color": "default"
+                },
+                {
+                    "name": "Bob l'éponge",
+                    "audio": "/quiz/IAMusic/Chansons/bob_léponge.mp3",
+                    "text": "/quiz/IAMusic/Chansons/bob_léponge.txt",
+                    "color": "default"
+                },
+                {
+                    "name": "C'est bon pour le moral",
+                    "audio": "/quiz/IAMusic/Chansons/bon_moral.mp3",
+                    "text": "/quiz/IAMusic/Chansons/bon_moral.txt",
+                    "color": "default"
+                },
+                {
+                    "name": "Ne parlons pas de Bruno",
+                    "audio": "/quiz/IAMusic/Chansons/bruno.mp3",
+                    "text": "/quiz/IAMusic/Chansons/bruno.txt",
+                    "color": "default"
+                },
+                {
+                    "name": "Au clair de la lune",
+                    "audio": "/quiz/IAMusic/Chansons/clair_lune.mp3",
+                    "text": "/quiz/IAMusic/Chansons/clair_lune.txt",
+                    "color": "default"
+                },
+                {
+                    "name": "Comme d'habitude",
+                    "audio": "/quiz/IAMusic/Chansons/comme_habitude.mp3",
+                    "text": "/quiz/IAMusic/Chansons/comme_habitude.txt",
+                    "color": "default"
+                },
+                {
+                    "name": "Comme un homme",
+                    "audio": "/quiz/IAMusic/Chansons/comme_un_homme.mp3",
+                    "text": "/quiz/IAMusic/Chansons/comme_un_homme.txt",
+                    "color": "default"
+                },
+                {
+                    "name": "Les lacs du Connemara",
+                    "audio": "/quiz/IAMusic/Chansons/connemara.mp3",
+                    "text": "/quiz/IAMusic/Chansons/connemara.txt",
+                    "color": "default"
+                },
+                {
+                    "name": "Les démons de minuit",
+                    "audio": "/quiz/IAMusic/Chansons/demons_minuit.mp3",
+                    "text": "/quiz/IAMusic/Chansons/demons_minuit.txt",
+                    "color": "default"
+                },
+                {
+                    "name": "Face à la mer",
+                    "audio": "/quiz/IAMusic/Chansons/face_mer.mp3",
+                    "text": "/quiz/IAMusic/Chansons/face_mer.txt",
+                    "color": "default"
+                },
+                {
+                    "name": "Toutes les femmes de ta vie",
+                    "audio": "/quiz/IAMusic/Chansons/femme_de_ta_vie.mp3",
+                    "text": "/quiz/IAMusic/Chansons/femme_de_ta_vie.txt",
+                    "color": "default"
+                },
+                {
+                    "name": "Libérée délivrée",
+                    "audio": "/quiz/IAMusic/Chansons/liberee_delivre.mp3",
+                    "text": "/quiz/IAMusic/Chansons/liberee_delivre.txt",
+                    "color": "default"
+                },
+                {
+                    "name": "Ce matin va être une pure soirée",
+                    "audio": "/quiz/IAMusic/Chansons/matin_pure_soiree.mp3",
+                    "text": "/quiz/IAMusic/Chansons/matin_pure_soiree.txt",
+                    "color": "default"
+                },
+                {
+                    "name": "Je serai (a meilleur amie)",
+                    "audio": "/quiz/IAMusic/Chansons/meilleure_amie.mp3",
+                    "text": "/quiz/IAMusic/Chansons/meilleure_amie.txt",
+                    "color": "default"
+                },
+                {
+                    "name": "Quand on arrive en ville",
+                    "audio": "/quiz/IAMusic/Chansons/quand_arrive_ville.mp3",
+                    "text": "/quiz/IAMusic/Chansons/quand_arrive_ville.txt",
+                    "color": "default"
+                },
+                {
+                    "name": "Ce rêve bleu",
+                    "audio": "/quiz/IAMusic/Chansons/reve_bleu.mp3",
+                    "text": "/quiz/IAMusic/Chansons/reve_bleu.txt",
+                    "color": "default"
+                },
+                {
+                    "name": "A toi de choisir",
+                    "audio": "/quiz/IAMusic/Chansons/toi_de_choisir.mp3",
+                    "text": "/quiz/IAMusic/Chansons/toi_de_choisir.txt",
+                    "color": "default"
+                },
+                {
+                    "name": "Vive le vent",
+                    "audio": "/quiz/IAMusic/Chansons/vive_le_vent.mp3",
+                    "text": "/quiz/IAMusic/Chansons/vive_le_vent.txt",
+                    "color": "default"
+                }
+            ]
         }
     ],
     "cinema": [
