@@ -1,0 +1,45 @@
+@use "sass:map";
+@use "sass:color";
+@use "../../styles/global_variables" as gv;
+
+.slideshow {
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+
+    .slideshow-content {
+        transition-duration: 800ms;
+        
+        img {
+            object-fit: cover;
+            height: 100%;
+            width: 100%;
+            border-radius: 8px 8px 0 0;
+        }
+    }
+
+    .controller-arrow {
+        position: absolute;
+        color: map.get(gv.$colors, "light-color");
+        cursor: pointer;
+    }
+
+    .left-arrow {
+        left: 5px;
+        top: 50%;
+    }
+
+    .right-arrow {
+        right: 5px;
+        top: 50%;
+    }
+
+    @media (min-width: gv.$desktop-width-min) {
+
+        .left-arrow, .right-arrow {
+            width: 25px;
+            height: 40px;
+            top: 43%;
+        }
+    }
+}

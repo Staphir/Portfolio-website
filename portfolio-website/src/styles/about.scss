@@ -1,0 +1,22 @@
+@use "sass:map";
+@use "sass:color";
+@use "./global_variables" as gv;
+
+.about-page {
+    background-color: map.get(gv.$colors, "background");
+    
+    .about-collapses {
+        margin-top: 20px;
+        margin: 20px 30px 0px 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        row-gap: 20px;
+        
+        @media (min-width: gv.$desktop-width-min) {
+            margin: 40px 300px 40px 300px;
+            row-gap: 30px;
+        }
+    }
+}
+

@@ -1,0 +1,121 @@
+@use "sass:map";
+@use "sass:color";
+@use "../styles/global_variables" as gv;
+
+.home-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: map.get(gv.$colors, "background");
+    
+    .myself-presentation {
+        background-color: map.get(gv.$colors, "background");
+        padding: 25px;
+        display: grid;
+        grid-template-areas: 
+        "portrait my-name"
+        "portrait personnal-infos"
+        "my-description my-description";
+        grid-template-rows: repeat(3, auto);
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        
+        @media (min-width: gv.$desktop-width-min) {
+            grid-template-areas: 
+            "portrait my-name"
+            "portrait my-description"
+            "personnal-infos my-description";
+            margin: auto 200px;
+        }
+        
+        .my-name {
+            grid-area: my-name;
+            font-weight: bold;
+            color: map.get(gv.$colors, "title");;
+            font-family: map.get(gv.$font-family, "title");
+            font-size: 20px;
+            margin: 0;
+            
+            @media (min-width: gv.$desktop-width-min) {
+                font-size: 30px;
+            }
+        }
+
+        .portrait {
+            grid-area: portrait;
+            height: auto;
+            width: 80%;
+            border-radius: 5%;
+            box-shadow: 0px 1px 5px 1px darken(map.get(gv.$colors, "background"), 15);
+
+            @media (min-width: gv.$desktop-width-min) {
+                margin-left: 35%;
+                width: 35%;
+            }
+        }
+        
+        .personal-infos {
+            grid-area: personnal-infos;
+            list-style: none;
+            padding-left: 0;
+            color: map.get(gv.$colors, "text");
+            margin-top: 0;
+            font-size: 12px;
+            
+            @media (min-width: gv.$desktop-width-min) {
+                margin-left: 35%;
+                margin-top: 15px;
+                font-size: 14px;
+            }
+
+            li {
+                margin-bottom: 10px;
+            }
+        }
+        
+        .my-description {
+            grid-area: my-description;
+            
+            .my-description-text {
+                color: map.get(gv.$colors, "text");
+                white-space: pre-line;
+                font-size: 12px;
+
+                @media (min-width: gv.$desktop-width-min) {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    
+    .skills {
+        background-color: map.get(gv.$colors, "background");
+        // box-shadow: 0px 0px 5px 0px darken(map.get(gv.$colors, "background"), 15);
+        
+        h2 {
+            text-align: center;
+            margin-bottom: 0;
+            color: map.get(gv.$colors, "title");;
+            font-family: map.get(gv.$font-family, "title");
+            font-size: 20px;
+
+            @media (min-width: gv.$desktop-width-min) {
+                margin-top: 30px;
+                font-size: 24px;
+            }
+        }
+        
+        &-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            padding: 25px;
+            gap: 20px;
+
+            @media (min-width: gv.$desktop-width-min) {
+                gap: 30px;
+                padding: 50px 80px;
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+@import 'https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap';
+
+$colors: (
+    "title": #FFFFFF,
+    "text": #bababa,
+    "background": #0D0D0D,
+    "light-color": #0274b3,
+    "dark-color": #014266
+);
+
+:export {
+    text: #bababa;
+    redText:#ff2f2f;
+}
+
+$font-family: (
+    "title": "Playfair Display",
+    "text": "nunito"
+);
+
+$desktop-width-min: 1024px;

@@ -1,0 +1,19 @@
+@use "sass:map";
+@use "sass:color";
+@use "../styles/global_variables" as gv;
+
+.projects-section {
+    background-color: map.get(gv.$colors, "background");
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px;
+    gap: 15px;
+
+    @media (min-width: gv.$desktop-width-min) {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+}

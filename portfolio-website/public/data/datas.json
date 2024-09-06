@@ -1,0 +1,762 @@
+{
+    "myself": {
+        "portrait": {
+            "src": "/portrait.png",
+            "alt": "portrait"
+        },
+        "description": "Je suis développeur web front-end avec une spécialisation en React Js. J'ai également des compétences en informatique graphique et synthèse d'images.\n\nIntéressé voire captivé par le beau visuel, je retrouve cet aspect en tant que développeur front-end car mon objectif est de présenter à l'utilisateur des sites avec une navigation fluide et agréable visuellement.\n\nSur mon temps libre, j'apprends à utiliser le logiciel Blender. Plus particulièrement la modélisation procédurale qui me fascine.",
+        "competences": [
+            {
+                "name": "Javascript",
+                "picture": {
+                    "src":"/logosCompetences/javascript.jpg",
+                    "alt": "logo javascript"
+                }
+            },
+            {
+                "name": "React Js",
+                "picture": {
+                    "src":"/logosCompetences/reactjs.jpg",
+                    "alt": "logo react js"
+                }
+            },
+            {
+                "name": "Sass",
+                "picture": {
+                    "src":"/logosCompetences/sass.png",
+                    "alt": "logo sass"
+                }
+            },
+            {
+                "name": "Tailwind",
+                "picture": {
+                    "src":"/logosCompetences/tailwind.png",
+                    "alt": "logo tailwind"
+                }
+            },
+            {
+                "name": "WebGl",
+                "picture": {
+                    "src":"/logosCompetences/webgl.jpg",
+                    "alt": "logo webgl"
+                }
+            },
+            {
+                "name": "Git",
+                "picture": {
+                    "src":"/logosCompetences/git.jpg",
+                    "alt": "logo git"
+                }
+            },
+            {
+                "name": "Figma",
+                "picture": {
+                    "src":"/logosCompetences/figma.jpg",
+                    "alt": "logo figma"
+                }
+            },
+            {
+                "name": "Python",
+                "picture": {
+                    "src":"/logosCompetences/python.png",
+                    "alt": "logo python"
+                }
+            },
+            {
+                "name": "C++",
+                "picture": {
+                    "src":"/logosCompetences/c++.png",
+                    "alt": "logo c++"
+                }
+            },
+            {
+                "name": "MySql",
+                "picture": {
+                    "src":"/logosCompetences/mysql.jpg",
+                    "alt": "logo mysql"
+                }
+            },
+            {
+                "name": "Blender",
+                "picture": {
+                    "src":"/logosCompetences/blender.png",
+                    "alt": "logo blender"
+                }
+            }
+        ]
+    },
+    "projects": [
+        {
+            "id": 0,
+            "name": "Projets développement Web",
+            "cover": [
+                {
+                    "src":"/projectsPresentationPictures/kasa_home.jpg",
+                    "alt": "Site Kasa"
+                },
+                {
+                    "src":"/projectsPresentationPictures/sportsee.jpg",
+                    "alt": "Site sportsee"
+                },
+                {
+                    "src":"/projectsPresentationPictures/fisheye_people.jpg",
+                    "alt": "Site fisheye"
+                },
+                {
+                    "src":"/projectsPresentationPictures/lespetitsplats_1.jpg",
+                    "alt": "Site les petits plats"
+                },
+                {
+                    "src":"/projectsPresentationPictures/ohmyfood_home.jpg",
+                    "alt": "Site Oh my food"
+                }
+            ],
+            "description": [
+                {
+                    "id": 0,
+                    "title": "Kasa",
+                    "pictures": [
+                        {
+                            "src":"/projectsPresentationPictures/kasa_home.jpg",
+                            "alt": "Kasa accueil"
+                        },
+                        {
+                            "src":"/projectsPresentationPictures/kasa_house.jpg",
+                            "alt": "Kasa page logement"
+                        },
+                        {
+                            "src":"/projectsPresentationPictures/kasa_about.jpg",
+                            "alt": "Kasa à propos"
+                        }
+                    ],
+                    "videos": [],
+                    "time": "Formation Développeur Javascript React",
+                    "text": "Plateforme web de location de logements. Création de nombreux composants React comme un collapse ou un carrousel. Navigation entre les pages du site grâce à React Router.\nReact | React Router | Sass",
+                    "link": []
+                },
+                {
+                    "id": 1,
+                    "title": "SportSee",
+                    "pictures": [
+                        {
+                            "src":"/projectsPresentationPictures/sportsee.jpg",
+                            "alt": "SportSee"
+                        }
+                    ],
+                    "videos": [],
+                    "time": "Formation Développeur Javascript React",
+                    "text": "Développement d'un dashboard analytic pour application web de suivi d'activité sportive. Création des graphiques grâce à la bibliothèque Recharts.\nRecharts | React | Sass",
+                    "link": []
+                },
+                {
+                    "id": 2,
+                    "title": "Les petits plats",
+                    "pictures": [
+                        {
+                            "src":"/projectsPresentationPictures/lespetitsplats_1.jpg",
+                            "alt": "Page les petits plats 1"
+                        },
+                        {
+                            "src":"/projectsPresentationPictures/lespetitsplats_2.jpg",
+                            "alt": "Page les petits plats 2"
+                        }
+                    ],
+                    "videos": [],
+                    "time": "Formation Développeur Javascript React",
+                    "text": "Site regroupant de nombreux plats. Programmation d'un système de recherche par mots-clés et par tags.\nJavascript | Tailwind CSS | JSON",
+                    "link": []
+                },
+                {
+                    "id": 3,
+                    "title": "Fisheye",
+                    "pictures": [
+                        {
+                            "src":"/projectsPresentationPictures/fisheye_home.jpg",
+                            "alt": "Page fisheye accueil"
+                        },
+                        {
+                            "src":"/projectsPresentationPictures/fisheye_people.jpg",
+                            "alt": "Page fisheye photographe"
+                        },
+                        {
+                            "src":"/projectsPresentationPictures/fisheye_picture.jpg",
+                            "alt": "Page fisheye photographe carrousel ouvert"
+                        }
+                    ],
+                    "videos": [],
+                    "time": "Formation Développeur Javascript React",
+                    "text": "Développement d'une plateforme web pour photographes. Utilisation d'un fichier JSON et de requêtes fetch pour ce qui concerne la base de données des photos et vidéos de chaque profils de photographes.\nJavascript | JSON | CSS ",
+                    "link": []
+                },
+                {
+                    "id": 4,
+                    "title": "Oh my food",
+                    "pictures": [
+                        {
+                            "src":"/projectsPresentationPictures/ohmyfood_home.jpg",
+                            "alt": "Accueil Oh my food"
+                        },
+                        {
+                            "src":"/projectsPresentationPictures/ohmyfood_menu.jpg",
+                            "alt": "Menu Oh my food"
+                        }
+                    ],
+                    "videos": [],
+                    "time": "Formation Développeur Javascript React",
+                    "text": "Site présentant des restaurants et leur menu. Développé en \"mobile first\" avec pour objectif d'avoir une responsivité mobile, tablette et desktop. Utilisation de Sass pour le visuel et les animations\nSass",
+                    "link": []
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "name": "Moteur de lancer de rayons",
+            "cover": [
+                {
+                    "src":"/projectsPresentationPictures/lr_final.jpg",
+                    "alt": "Rendu global du lancer de rayon"
+                },
+                {
+                    "src":"/projectsPresentationPictures/lr_mirroir.jpg",
+                    "alt": "Rendu mirroir du lancer de rayon"
+                },
+                {
+                    "src":"/projectsPresentationPictures/lr_textures.jpg",
+                    "alt": "Rendu de textures du lancer de rayon"
+                }
+            ],
+            "description": [
+                {
+                    "title": "Moteur de lancer de rayons",
+                    "pictures": [
+                        {
+                            "src":"/projectsPresentationPictures/lr_final.jpg",
+                            "alt": "Rendu global du lancer de rayon"
+                        },
+                        {
+                            "src":"/projectsPresentationPictures/lr_mirroir.jpg",
+                            "alt": "Rendu mirroir du lancer de rayon"
+                        },
+                        {
+                            "src":"/projectsPresentationPictures/lr_textures.jpg",
+                            "alt": "Rendu de textures du lancer de rayon"
+                        }
+                    ],
+                    "videos": [],
+                    "time": "Master Informatique, Synthèse d'Images et Conception Graphique",
+                    "text": "Développement en C++ et OpenGL d'un moteur de lancer de rayon. Plusieurs techniques et algorithmes ont été implémentés pour le rendu, que ce soit au niveau de l'affichage de maillages et de primitives ou au niveau de l'éclairage.\nConcernant l'affichage d'objets, on utilise l'interpolation barycentrique, le BVH (Boundary Volume Hierarchy) et le CSG (Constructive Solid Geometry).Concernant l'éclairage, on retrouve La BRDF (Bidirectional Reflectance Distribution Function) Microfacet, des ombres douces, de la réflexion et de la réfraction.\nUn anti-aliasing avec la méthode supersampling a été codé.\nPour finir, de l'UV mapping pour le texturing des objets.",
+                    "link": []
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Geometry Nodes plume",
+            "cover": [
+                {
+                    "src":"/projectsPresentationPictures/Blender_feather.jpg",
+                    "alt": "Plume sur blender avec le geometry nodes"
+                },
+                {
+                    "src":"/projectsPresentationPictures/Blender_feather_geometry_nodes.jpg",
+                    "alt": "Geometry nodes de la modélisation de plume"
+                }
+            ],
+            "description": [
+                {
+                    "title": "Geometry Nodes plume",
+                    "pictures": [
+                        {
+                            "src":"/projectsPresentationPictures/Blender_feather.jpg",
+                            "alt": "Plume sur blender avec le geometry nodes"
+                        },
+                        {
+                            "src":"/projectsPresentationPictures/Blender_feather_geometry_nodes.jpg",
+                            "alt": "Geometry nodes de la modélisation de plume"
+                        }
+                    ],
+                    "videos": [
+                        {
+                            "src":"/projectsPresentationPictures/Blender_feather.mp4"
+                        }
+                    ],
+                    "time": "Projet Blender autodidacte",
+                    "text": "Utilisation du Geometry Nodes de Blender pour créer une plume à partir d'une courbe de Bézier.",
+                    "link": []
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Geometry Nodes montagne",
+            "cover": [
+                {
+                    "src":"/projectsPresentationPictures/Blender_mountains.jpg",
+                    "alt": "Modélisation montagnes sur Blender"
+                }
+            ],
+            "description": [
+                {
+                    "title": "Geometry Nodes montagne",
+                    "pictures": [
+                        {
+                            "src":"/projectsPresentationPictures/lr_final.jpg",
+                            "alt": "Rendu global du lancer de rayon"
+                        },
+                        {
+                            "src":"/projectsPresentationPictures/lr_mirroir.jpg",
+                            "alt": "Rendu mirroir du lancer de rayon"
+                        },
+                        {
+                            "src":"/projectsPresentationPictures/lr_textures.jpg",
+                            "alt": "Rendu de textures du lancer de rayon"
+                        }
+                    ],
+                    "videos": [
+                        {
+                            "src":"/projectsPresentationPictures/Blender_mountains.mp4"
+                        }
+                    ],
+                    "time": "Projet Blender autodidacte",
+                    "text": "Création de Montagnes en utilisant le Weight Paint. Utilisation du Geometry Nodes de Blender.",
+                    "link": []
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Modélisation sur 3DsMax",
+            "cover": [
+                {
+                    "src":"/projectsPresentationPictures/renduSabreLaser.jpg",
+                    "alt": "Rendu sabre laser"
+                }
+            ],
+            "description": [
+                {
+                    "title": "Modélisation d'un sabre laser sur 3DsMax",
+                    "pictures": [
+                        {
+                            "src":"/projectsPresentationPictures/renduSabreLaser.jpg",
+                            "alt": "Rendu sabre laser"
+                        }
+                    ],
+                    "videos": [],
+                    "time": "Master Informatique, Synthèse d’images et Conception Graphique",
+                    "text": "Modélisation de la garde d'un sabre laser sur 3DsMax.",
+                    "link": []
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Modélisation sur Blender",
+            "cover": [
+                {
+                    "src":"/projectsPresentationPictures/rendu_phenix_v1.png",
+                    "alt": "Rendu phénix cubique"
+                }
+            ],
+            "description": [
+                {
+                    "title": "Modélisation sur Blender",
+                    "pictures": [
+                        {
+                            "src":"/projectsPresentationPictures/rendu_phenix_v1.png",
+                            "alt": "Rendu phénix cubique"
+                        }
+                    ],
+                    "videos": [],
+                    "time": "Projet Blender autodidacte",
+                    "text": "Modélisation low-poly d'un phénix.",
+                    "link": []
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Eclairage d'objet en WebGL",
+            "cover": [
+                {
+                    "src":"/projectsPresentationPictures/pres_webgl_eclairage.png",
+                    "alt": "Exemple d'éclairage avec Cook-Torrance"
+                }
+            ],
+            "description": [
+                {
+                    "title": "Eclairage d'objet en WebGL",
+                    "pictures": [
+                        {
+                            "src":"/projectsPresentationPictures/pres_webgl_eclairage.png",
+                            "alt": "Exemple d'éclairage avec Cook-Torrance"
+                        }
+                    ],
+                    "videos": [],
+                    "time": "Master Informatique, Synthèse d’images et Conception Graphique",
+                    "text": "Page web en javascript et WebGL pour de l'éclairage d'objet 3D. Deux algorithmes d'éclairages ont été implémenté : Phong et Cook-Torrance. Il est possible de modifier les paramètres des algorithmes. Trois objets sont disponibles. Il est également possible de déplacer la caméra et la position de la source lumineuse.",
+                    "link": ["/projetsWebGLM2/CookTorrance/main.html"] 
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Réflexions et réfractions en WebGL",
+            "cover": [
+                {
+                    "src":"/projectsPresentationPictures/pres_webgl_reflect_refract.png",
+                    "alt": "Exemple avec une sphère dans une skybox de lac"
+                }
+            ],
+            "description": [
+                {
+                    "title": "Réflexions et réfractions en WebGL",
+                    "pictures": [
+                        {
+                            "src":"/projectsPresentationPictures/pres_webgl_reflect_refract.png",
+                            "alt": "Exemple avec une sphère dans une skybox de lac"
+                        }
+                    ],
+                    "videos": [],
+                    "time": "Master Informatique, Synthèse d'Images et Conception Graphique",
+                    "text": "Page web en javascript et WebGL. Sur ce site on peut choisir de voir de la réflexion ou de la réfraction sur plusieurs types d'objets et dans des skybox différentes.",
+                    "link": ["/projetsWebGLM2/Skybox_ReflectRefract/main.html"]
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Site de création et édition au format .obj",
+            "cover": [
+                {
+                    "src":"/projectsPresentationPictures/captureSiteIN.jpg",
+                    "alt": "Exemple d'une pyramide en format .obj"
+                }
+            ],
+            "description": [
+                {
+                    "title": "Site de création et édition au format .obj",
+                    "pictures": [
+                        {
+                            "src":"/projectsPresentationPictures/captureSiteIN.jpg",
+                            "alt": "Exemple d'une pyramide en format .obj"
+                        }
+                    ],
+                    "videos": [],
+                    "time": "Licence Mathématiques et Informatique Appliquées aux Sciences Humaines et Sociales",
+                    "text": "Site en javascript qui permet de créer des objets 3D en remplissant une zone de texte sous un format de fichier .obj. On peut ensuite afficher l'objet en \"filled\", en \"Wireframe\" ou seulement les\"Vertices\". On peut également faire tourner les objets en fonction. La lumière peut être modifiés que ce soit sa couleur, son intensité ou son type (ambiante, ponctuelle ou spot).",
+                    "link": ["/projectL3Obj/index.html"]
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Animation sur GPU avec algorithmes de Sphere Tracing, Marching Cubes et Dual Contouring",
+            "cover": [
+                {
+                    "src":"/projectsPresentationPictures/demo_graphique_sphere_tracing.jpg",
+                    "alt": "Rendu sphere tracing"
+                },
+                {
+                    "src":"/projectsPresentationPictures/demo_graphique_marching_cubes.jpg",
+                    "alt": "Rendu marching cubes"
+                },
+                {
+                    "src":"/projectsPresentationPictures/demo_graphique_dual_contouring.jpg",
+                    "alt": "Rendu dual contouring"
+                }
+            ],
+            "description": [
+                {
+                    "title": "Animation sur GPU avec algorithmes de Sphere Tracing, Marching Cubes et Dual Contouring",
+                    "pictures": [
+                        {
+                            "src":"/projectsPresentationPictures/demo_graphique_sphere_tracing.jpg",
+                            "alt": "Rendu sphere tracing"
+                        },
+                        {
+                            "src":"/projectsPresentationPictures/demo_graphique_marching_cubes.jpg",
+                            "alt": "Rendu marching cubes"
+                        },
+                        {
+                            "src":"/projectsPresentationPictures/demo_graphique_dual_contouring.jpg",
+                            "alt": "Rendu dual contouring"
+                        }
+                    ],
+                    "videos": [
+                        {
+                            "src":"/projectsPresentationPictures/Projet_demo_graphique.mp4"
+                        }
+                    ],
+                    "time": "Master Informatique, Synthèse d'Images et Conception Graphique",
+                    "text": "Développement en java et OpenGL d'une démo graphique. Trois algorithmes sont implémentés : Sphère Tracing, Marching Cube et Dual Contouring. Le tout est codé sur GPU pour avoir du parallélisme.",
+                    "link": []
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Animation moteur 3D avec shaders GLSL",
+            "cover": [
+                {
+                    "src":"/projectsPresentationPictures/moteur3D.jpg",
+                    "alt": "Fx moteur 3D"
+                }
+            ],
+            "description": [
+                {
+                    "title": "Animation moteur 3D avec shaders GLSL",
+                    "pictures": [
+                        {
+                            "src":"/projectsPresentationPictures/moteur3D.jpg",
+                            "alt": "Fx moteur 3D"
+                        }
+                    ],
+                    "videos": [
+                        {
+                            "src":"/projectsPresentationPictures/Demo_Moteur3D.mp4"
+                        }
+                    ],
+                    "time": "Master Informatique, Synthèse d'Images et Conception Graphique",
+                    "text": "Animation FX sur modèle 3D avec des shaders GLSL",
+                    "link": []
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Développement de jeux-vidéo",
+            "cover": [
+                {
+                    "src":"/projectsPresentationPictures/mosaic_games.jpg",
+                    "alt": "mosaique de jeux"
+                }
+            ],
+            "description": [
+                {
+                    "id": 0,
+                    "title": "Bobby's Adventure",
+                    "pictures": [
+                        {
+                            "src":"/projectsPresentationPictures/Bobby's_extrait.gif",
+                            "alt": "Bobby's Adventure"
+                        }
+                    ],
+                    "videos": [],
+                    "time": "Global Game Jam 2020",
+                    "text": "Jeu de plateforme créé sur Unity en 48h avec une équipe de 5 personnes.\n Télécharger le jeu sur : https://aaronterg.itch.io/bobbys-adventure",
+                    "link": []
+                },
+                {
+                    "id": 1,
+                    "title": "Plockit.io",
+                    "pictures": [],
+                    "videos": [
+                        {
+                            "src":"/projectsPresentationPictures/Plockit_demo.mp4"
+                        }
+                    ],
+                    "time": "Game Jam GMTK 2021",
+                    "text": "Puzzle game musical créé à 4 sur Unity et en 48h.\n Télécharger le jeu sur : https://staphir.itch.io/plockit",
+                    "link": []
+                },
+                {
+                    "id": 2,
+                    "title": "Bejeweld fighter",
+                    "pictures": [],
+                    "videos": [
+                        {
+                            "src":"/projectsPresentationPictures/Bejeweld_fighter_demo.mp4"
+                        }
+                    ],
+                    "time": "Game Jam Video Game Lab 2021",
+                    "text": "Puzzle game créé à 2 sur Unity en 48h.\n Tester le jeu sur : https://staphir.itch.io/bejeweled-fighter",
+                    "link": []
+                },
+                {
+                    "id": 3,
+                    "title": "Dungeon lucky dice",
+                    "pictures": [
+                        {
+                            "src":"/projectsPresentationPictures/dungeon_lucky_dice_menu.jpg",
+                            "alt": "Menu dungeon lucky dice"
+                        },
+                        {
+                            "src":"/projectsPresentationPictures/dungeon_lucky_dice_game.jpg",
+                            "alt": "En jeu dungeon lucky dice"
+                        }
+                    ],
+                    "videos": [],
+                    "time": "Game Jam GMTK 2021",
+                    "text": "Jeu de combat en tour par tour créé à 2 sur Unity en 48h.\n Tester le jeu sur : https://staphir.itch.io/dungeon-lucky-dice",
+                    "link": []
+                },
+                {
+                    "id": 4,
+                    "title": "Library fight",
+                    "pictures": [
+                        {
+                            "src":"/projectsPresentationPictures/library_fight_menu.png",
+                            "alt": "Menu library fight"
+                        },
+                        {
+                            "src":"/projectsPresentationPictures/library_fight_game.png",
+                            "alt": "En jeu library fight"
+                        }
+                    ],
+                    "videos": [],
+                    "time": "Game Jam Ludum Dare 54 (2023)",
+                    "text": "Jeu multijoueur créé à 2 sur Godot en 48h.\n Tester le jeu sur : https://engagegagne.itch.io/library-fight",
+                    "link": []
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Site compte rendu projet résolution de casse-tête par des méthodes de Deep-Learning",
+            "cover": [
+                {
+                    "src":"/projectsPresentationPictures/siteDL_fctDL.jpg",
+                    "alt": "Page fonctionnement du Deep-Learning"
+                },
+                {
+                    "src":"/projectsPresentationPictures/siteDL_algo.jpg",
+                    "alt": "Page algorithme"
+                },
+                {
+                    "src":"/projectsPresentationPictures/siteDL_graphique.jpg",
+                    "alt": "Page résultats de l'algorithme"
+                },
+                {
+                    "src":"/projectsPresentationPictures/siteDL_diffBibli.jpg",
+                    "alt": "Page présentation des bibliothèques de Deep-Learning"
+                }
+            ],
+            "description": [
+                {
+                    "title": "Site compte rendu projet résolution de casse-tête par des méthodes de Deep-Learning",
+                    "pictures": [
+                        {
+                            "src":"/projectsPresentationPictures/siteDL_fctDL.jpg",
+                            "alt": "Page fonctionnement du Deep-Learning"
+                        },
+                        {
+                            "src":"/projectsPresentationPictures/siteDL_algo.jpg",
+                            "alt": "Page algorithme"
+                        },
+                        {
+                            "src":"/projectsPresentationPictures/siteDL_graphique.jpg",
+                            "alt": "Page résultats de l'algorithme"
+                        },
+                        {
+                            "src":"/projectsPresentationPictures/siteDL_diffBibli.jpg",
+                            "alt": "Page présentation des bibliothèques de Deep-Learning"
+                        }
+                    ],
+                    "videos": [],
+                    "time": "Licence Mathématiques et Informatique Appliquées aux Sciences Humaines et Sociales",
+                    "text": "Site web faisant office de compte rendu pour un projet autour du Deep-Learning. La problèmatique du projet était : résolution de casse-tête par des méthodes de Deep-Learning. Utilisation de python pour coder le casse-tête et la bibliothèque TensorFlow pour la partie Deep-Learning.",
+                    "link": []
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Site DATAC",
+            "cover": [
+                {
+                    "src":"/projectsPresentationPictures/DATAC_accueil.jpg",
+                    "alt": "Page d'acceuil"
+                },
+                {
+                    "src":"/projectsPresentationPictures/DATAC_dispositif.jpg",
+                    "alt": "Page exemple dispositif"
+                },
+                {
+                    "src":"/projectsPresentationPictures/DATAC_contacts.jpg",
+                    "alt": "Page contact"
+                }
+            ],
+            "description": [
+                {
+                    "title": "Site DATAC",
+                    "pictures": [
+                        {
+                            "src":"/projectsPresentationPictures/DATAC_accueil.jpg",
+                            "alt": "Page d'acceuil"
+                        },
+                        {
+                            "src":"/projectsPresentationPictures/DATAC_dispositif.jpg",
+                            "alt": "Page exemple dispositif"
+                        },
+                        {
+                            "src":"/projectsPresentationPictures/DATAC_contacts.jpg",
+                            "alt": "Page contact"
+                        }
+                    ],
+                    "videos": [],
+                    "time": "Stage de 10 semaines en 2017",
+                    "text": "Refonte du site DATAC, présentant un catalogue de dispositifs et aides techniques à la communication, destiné à toutes personnes en situation de handicap, leurs proches ainsi que les professionnels de santé. Le site est coder avec les technologies : javascript, Bootstrap, PHP et MySQL.",
+                    "link": []
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Cube Creative Computer Company",
+            "cover": [
+                {
+                    "src":"/projectsPresentationPictures/CUBE_CREATIVE.jpg",
+                    "alt": "Présentation projets Cube Creative"
+                }
+            ],
+            "description": [
+                {
+                    "title": "Cube Creative Computer Company",
+                    "pictures": [
+                        {
+                            "src":"/projectsPresentationPictures/CUBE_CREATIVE.jpg",
+                            "alt": "Présentation projets Cube Creative"
+                        }
+                    ],
+                    "videos": [],
+                    "time": "2021",
+                    "text": "Travail dans le studio d'animation 3D Cube Creative Computer Company. Je faisais partie de l'équipe R&D et codait en python et PyQt des outils pour aider les artistes du studio. Les missions pouvaient être des addons pour Blender ou des outils stand-alone pour automatiser des transferts de données.",
+                    "link": []
+                }
+            ]
+        }
+    ],
+    "games": [
+        {
+            "id": 1,
+            "name": "Jeu de plateforme Bobby's Adventure",
+            "cover": [
+                {
+                    "src":"/projectsPresentationPictures/Bobby's_extrait.jpg",
+                    "alt": "Bobby's Adventure"
+                }
+            ],
+            "videos": []
+        },
+        {
+            "id": 2,
+            "name": "Puzzle game musical plockit.io",
+            "cover": [],
+            "videos": [
+                {
+                    "src":"/projectsPresentationPictures/Plockit_demo.mp4"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Bejeweld fighter",
+            "cover": [],
+            "videos": [
+                {
+                    "src":"/projectsPresentationPictures/Bejeweld_fighter_demo.mp4"
+                }
+            ]
+        }
+    ]
+}

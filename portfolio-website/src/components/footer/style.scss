@@ -1,0 +1,41 @@
+@use "sass:map";
+@use "sass:color";
+@use "../../styles/global_variables" as gv;
+
+footer {
+    background-color: map.get(gv.$colors, "background");
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 10px;
+    padding: 20px 20px 20px 20px;
+    bottom: 0;
+    
+    @media (min-width: gv.$desktop-width-min) {
+        row-gap: 10px;
+        padding: 25px 483px 25px 483px;
+    }
+    
+    
+    .logo-footer {
+        object-fit: cover;
+        height: 100%;
+        width: 122px;
+        align-self: center;
+    }
+    
+    .siteProperty {
+        align-self: center;
+        color: map.get(gv.$colors, "text");
+        text-align: center;
+        font-size: 12px;
+        
+        @media (min-width: gv.$desktop-width-min) {
+            font-size: 24px;
+        }
+        
+        a {
+            color: map.get(gv.$colors, "text");
+        }
+    }
+}

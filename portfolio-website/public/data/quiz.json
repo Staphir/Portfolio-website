@@ -1,0 +1,108 @@
+{
+    "music": [
+        {
+            "name": "Plats IA",
+            "description": "Chaque musique décrit un plat et à la manière d'une énigme il faut trouver de quel plat il sagit. Le principe de ce quiz vient du color (en rouge les titres venant du podcast). J'ai écrit les textes mais, étant une quiche en musique, l'audio a été créé par IA avec le site Suno.",
+            "content": [
+                {
+                    "name": "Aligot",
+                    "audio": "/quiz/IAMusic/Plats/aligot.mp3",
+                    "text": "/quiz/IAMusic/Plats/aligot.txt",
+                    "color": "red"
+                },
+                {
+                    "name": "Cookie",
+                    "audio": "/quiz/IAMusic/Plats/cookie.mp3",
+                    "text": "/quiz/IAMusic/Plats/cookie.txt",
+                    "color": "default"
+                },
+                {
+                    "name": "Couscous",
+                    "audio": "/quiz/IAMusic/Plats/couscous.mp3",
+                    "text": "/quiz/IAMusic/Plats/couscous.txt",
+                    "color": "default"
+                },
+                {
+                    "name": "Crème brulée",
+                    "audio": "/quiz/IAMusic/Plats/creme_brulee.mp3",
+                    "text": "/quiz/IAMusic/Plats/creme_brulee.txt",
+                    "color": "default"
+                },
+                {
+                    "name": "Éclair",
+                    "audio": "/quiz/IAMusic/Plats/eclair.mp3",
+                    "text": "/quiz/IAMusic/Plats/eclair.txt",
+                    "color": "default"
+                },
+                {
+                    "name": "Galette des rois",
+                    "audio": "/quiz/IAMusic/Plats/galette_des_rois.mp3",
+                    "text": "/quiz/IAMusic/Plats/galette_des_rois.txt",
+                    "color": "default"
+                },
+                {
+                    "name": "Lasagne",
+                    "audio": "/quiz/IAMusic/Plats/lasagne.mp3",
+                    "text": "/quiz/IAMusic/Plats/lasagne.txt",
+                    "color": "default"
+                },
+                {
+                    "name": "Moussaka",
+                    "audio": "/quiz/IAMusic/Plats/moussaka.mp3",
+                    "text": "/quiz/IAMusic/Plats/moussaka.txt",
+                    "color": "red"
+                },
+                {
+                    "name": "Nems",
+                    "audio": "/quiz/IAMusic/Plats/nems.mp3",
+                    "text": "/quiz/IAMusic/Plats/nems.txt",
+                    "color": "default"
+                },
+                {
+                    "name": "Pad taï",
+                    "audio": "/quiz/IAMusic/Plats/pad_taï.mp3",
+                    "text": "/quiz/IAMusic/Plats/pad_taï.txt",
+                    "color": "red"
+                },
+                {
+                    "name": "Pomme au four",
+                    "audio": "/quiz/IAMusic/Plats/pomme_au_four.mp3",
+                    "text": "/quiz/IAMusic/Plats/pomme_au_four.txt",
+                    "color": "red"
+                },
+                {
+                    "name": "Pot au feu",
+                    "audio": "/quiz/IAMusic/Plats/pot_au_feu.mp3",
+                    "text": "/quiz/IAMusic/Plats/pot_au_feu.txt",
+                    "color": "red"
+                },
+                {
+                    "name": "Quiche",
+                    "audio": "/quiz/IAMusic/Plats/quiche.mp3",
+                    "text": "/quiz/IAMusic/Plats/quiche.txt",
+                    "color": "default"
+                },
+                {
+                    "name": "Ratatouille",
+                    "audio": "/quiz/IAMusic/Plats/ratatouille.mp3",
+                    "text": "/quiz/IAMusic/Plats/ratatouille.txt",
+                    "color": "default"
+                },
+                {
+                    "name": "Tartiflette",
+                    "audio": "/quiz/IAMusic/Plats/tartiflette.mp3",
+                    "text": "/quiz/IAMusic/Plats/tartiflette.txt",
+                    "color": "default"
+                }
+            ]
+        },
+        {
+            "name": "Synonymes IA",
+            "description": "Chaque musique est créée à partir d'une chanson française cependant une partie des mots est changés en synonymes. En plus, la musique n'a aucun rapport avec l'originale. J'ai écrit les textes mais l'audio a été créé par IA avec le site Suno.",
+            "content": []
+        }
+    ],
+    "cinema": [
+        
+    ]
+}

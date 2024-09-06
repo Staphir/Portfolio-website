@@ -1,0 +1,72 @@
+@use "sass:map";
+@use "sass:color";
+@use "../../styles/global_variables" as gv;
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 15px 20px 15px;
+    background-color: map.get(gv.$colors, "background");
+
+    @media (min-width: gv.$desktop-width-min) {
+        padding: 25px 80px 25px 80px;
+    }
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+
+    @media (min-width: gv.$desktop-width-min) {
+        column-gap: 45px;
+    }
+
+    a {
+        color: map.get(gv.$colors, "text");
+        font-family: map.get(gv.$font-family, "title");
+        font-size: 10px;
+        align-self: center;
+        text-decoration: none;
+
+        @media (min-width: gv.$desktop-width-min) {
+            transition: color 800ms, font-size 800ms;
+            font-size: 24px;
+        }
+
+        &:hover {
+
+            @media (min-width: gv.$desktop-width-min) {
+                color: map.get(gv.$colors, "light-color");
+                font-size: 26px;
+            }
+        }
+    }
+}
+
+nav .active {
+    text-decoration: underline;
+}
+
+.logos-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+
+    @media (min-width: gv.$desktop-width-min) {
+        gap: 15px;
+    }
+
+    img {
+        width: 17px;
+        height: 100%;
+        object-fit: contain;
+
+        @media (min-width: gv.$desktop-width-min) {
+            width: 50px;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+}

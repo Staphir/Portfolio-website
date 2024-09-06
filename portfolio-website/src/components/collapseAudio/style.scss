@@ -1,0 +1,154 @@
+@use "sass:map";
+@use "sass:color";
+@use "../../styles/global_variables" as gv;
+
+.collapse {
+    position: relative;
+}
+
+.top-bar {
+    width: 100%;
+    background: linear-gradient(
+        map.get(gv.$colors, "dark-color"),
+        map.get(gv.$colors, "light-color")
+    );
+    border-radius: 5px;
+    border-style: none;
+    padding: 10px;
+    font-family: map.get(gv.$font-family, "title");
+    font-size: 12px;
+    color: white;
+    text-align: left;
+    transition: all 200ms ease-out;
+
+    &:hover {
+        box-shadow: 0px 3px 5px 0px darken(map.get(gv.$colors, "background"), 15);
+    }
+
+    .chevron {
+        color: white;
+        position: absolute;
+        right: 10px;
+        top: 10px; 
+        transition: transform 200ms;
+    }
+    
+    .down {
+        transform: rotate(0deg);
+    }
+    
+    .up {
+        transform: rotate(-180deg);
+    }
+}
+
+.collapse-content {
+    background-color: lighten(map.get(gv.$colors, "background"), 15);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: map.get(gv.$colors, "text");
+    font-family: map.get(gv.$font-family, "text");
+    font-size: 12px;
+    line-height: 15px;
+    transition: height 300ms;
+    overflow: hidden;
+
+    .collapse-text {
+        margin: 20px;
+        white-space: pre-line;
+
+        .audio-line {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            column-gap: 10px;
+            margin-bottom: 10px;
+            
+            .audio-name {
+                cursor: pointer;
+            }
+
+            .rap-container {
+                background-color: map.get(gv.$colors, "background");
+                border-radius: 5px;
+                height: 30px;
+                margin-bottom: 5px;
+
+                svg {
+                    width: 18px;
+                }
+
+                .rap-pp-button {
+                    .rap-pp-icon {
+                        width: 13px;
+                        height: 15px;
+                    }
+                }
+            }
+
+            
+            .audio-links {
+                display: flex;
+                column-gap: 5px;
+                align-items: center;
+                a {
+                    color: map.get(gv.$colors, "text");
+                    align-items: center;
+                }
+            }
+        }
+    }
+}
+
+
+
+@media (min-width: gv.$desktop-width-min) {
+
+    .top-bar {
+        font-size: 22px;
+
+        .chevron {
+            width: 24px;
+            height: 24px;
+        }
+    }
+
+    .collapse-content {
+        font-size: 16px;
+        line-height: 25px;
+
+        .collapse-text {    
+            .audio-line {
+                flex-direction: row;
+                justify-content: space-between;
+                margin-bottom: 0;
+                
+                .audio-name {
+                    min-width: 125px;
+                }
+
+                .rap-container {
+                    width: 100%;
+                    align-self: center;
+                    height: 40px;
+    
+                    svg {
+                        width: 24px;
+                    }
+    
+                    .rap-pp-button {
+                        .rap-pp-icon {
+                            width: 18px;
+                            height: 24px;
+                        }
+                    }
+                }
+    
+                .audio-links {
+                    column-gap: 10px;
+                    justify-content: flex-end;
+                }
+            }
+        }
+    }
+}
