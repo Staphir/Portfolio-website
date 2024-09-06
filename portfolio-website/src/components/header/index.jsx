@@ -7,7 +7,7 @@ import iconItchIo from '../../assets/itch-io-logo-clipart-2.png';
 import cvPdf from '../../assets/cv_maxime_dulieu.pdf';
 
 function Header() {
-    const menuPages = {"Accueil": "", "Portfolio": "portfolio", "À propos": "about", "Contact": "contact"};
+    const menuPages = {"Accueil": "", "Portfolio": "portfolio", "À propos": "about", "Contact": "contact", "Quiz": "quiz"};
 
     return (
         <header>

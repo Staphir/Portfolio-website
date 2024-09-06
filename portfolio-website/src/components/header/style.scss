@@ -52,7 +52,7 @@ nav .active {
 .logos-links {
     display: flex;
     justify-content: space-between;
-    gap: 10px;
+    gap: 5px;
 
     @media (min-width: gv.$desktop-width-min) {
         gap: 15px;

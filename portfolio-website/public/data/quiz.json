@@ -2,7 +2,7 @@
     "music": [
         {
             "name": "Plats IA",
-            "description": "Chaque musique décrit un plat et à la manière d'une énigme il faut trouver de quel plat il sagit. Le principe de ce quiz vient du color (en rouge les titres venant du podcast). J'ai écrit les textes mais, étant une quiche en musique, l'audio a été créé par IA avec le site Suno.",
+            "description": "Chaque musique décrit un plat et à la manière d'une énigme il faut trouver de quel plat il sagit. Le principe de ce quiz vient du floodcast (en rouge les titres venant du podcast). J'ai écrit les textes mais, étant une quiche en musique, l'audio a été créé par IA avec le site Suno.",
             "content": [
                 {
                     "name": "Aligot",
@@ -223,7 +223,33 @@
             ]
         }
     ],
-    "cinema": [
-        
+    "textual": [
+        {
+            "name": "Films / Séries ensembles",
+            "description": "Dans ces quiz, l'objectif est de trouver deux films (ou séries) qui ont en commun une syllabe pour pouvoir former un nouveau nom contenant les deux titres. Le moyen de faire deviner est un synopsis mélangeant le synopsis des deux œuvres. Concept d'Adrien Ménielle (https://bento.me/adrienmenielle)",
+            "content": [
+                {
+                    "name": "Films ensembles",
+                    "file": "/quiz/FusionsTextes/films_ensembles.odt"
+                },
+                {
+                    "name": "Séries ensembles",
+                    "file": "/quiz/FusionsTextes/series_ensembles.odt"
+                }
+            ]
+        },
+        {
+            "name": "Chanteurs ensembles",
+            "description": "Dans ces quiz, l'objectif est de trouver deux chanteurs qui ont en commun une syllabe pour pouvoir former un nouveau nom en mélangeant leurs noms. Pour faire deviner, on choisit une chanson de chaque chanteur et on mélange des vers de chaque chanson. Concept d'Adrien Ménielle (https://bento.me/adrienmenielle)",
+            "content": [
+                {
+                    "name": "Chanteurs ensembles",
+                    "file": "/quiz/FusionsTextes/chanteurs_ensembles.odt"
+                }
+            ]
+        }
+    ],
+    "visual": [
+
     ]
 }
