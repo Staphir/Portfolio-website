@@ -11,6 +11,12 @@
                     "color": "red"
                 },
                 {
+                    "name": "Boeuf bourguignon",
+                    "audio": "/quiz/IAMusic/Plats/boeuf_bourguignon.mp3",
+                    "text": "/quiz/IAMusic/Plats/boeuf_bourguignon.txt",
+                    "color": "default"
+                },
+                {
                     "name": "Cookie",
                     "audio": "/quiz/IAMusic/Plats/cookie.mp3",
                     "text": "/quiz/IAMusic/Plats/cookie.txt",
@@ -86,6 +92,12 @@
                     "name": "Ratatouille",
                     "audio": "/quiz/IAMusic/Plats/ratatouille.mp3",
                     "text": "/quiz/IAMusic/Plats/ratatouille.txt",
+                    "color": "default"
+                },
+                {
+                    "name": "Tarte tatin",
+                    "audio": "/quiz/IAMusic/Plats/tarte_tatin.mp3",
+                    "text": "/quiz/IAMusic/Plats/tarte_tatin.txt",
                     "color": "default"
                 },
                 {
@@ -176,6 +188,12 @@
                     "name": "Toutes les femmes de ta vie",
                     "audio": "/quiz/IAMusic/Chansons/femme_de_ta_vie.mp3",
                     "text": "/quiz/IAMusic/Chansons/femme_de_ta_vie.txt",
+                    "color": "default"
+                },
+                {
+                    "name": "J'ai dix ans",
+                    "audio": "/quiz/IAMusic/Chansons/j_ai_dix_ans.mp3",
+                    "text": "/quiz/IAMusic/Chansons/j_ai_dix_ans.txt",
                     "color": "default"
                 },
                 {
