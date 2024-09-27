@@ -9,7 +9,7 @@ function Contact() {
             <section className='contact-form'>
                 <p>Formulaire en cours de construction.</p>
             </section>
-            <p className='tmp-contact-p'>Vous pouvez me contactez par mail : <a href='mailto:m.dulieu@outlook.fr'>m.dulieu@outlook.fr</a> ou par téléphone au : <b>07 82 82 27 91</b></p>
+            <p className='tmp-contact-p'>Vous pouvez me contacter par mail : <a href='mailto:m.dulieu@outlook.fr'>m.dulieu@outlook.fr</a> ou par téléphone au : <b>07 82 82 27 91</b></p>
         </main>
 
     )

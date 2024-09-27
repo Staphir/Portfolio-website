@@ -4,7 +4,7 @@
             "src": "/portrait.png",
             "alt": "portrait"
         },
-        "description": "Je suis développeur web front-end avec une spécialisation en React Js. J'ai également des compétences en informatique graphique et synthèse d'images.\n\nIntéressé voire captivé par le beau visuel, je retrouve cet aspect en tant que développeur front-end car mon objectif est de présenter à l'utilisateur des sites avec une navigation fluide et agréable visuellement.\n\nSur mon temps libre, j'apprends à utiliser le logiciel Blender. Plus particulièrement la modélisation procédurale qui me fascine.",
+        "description": "Je suis développeur web front-end avec une spécialisation en React Js. J'ai également un master en informatique graphique et synthèse d'images.\n\nIntéressé voire captivé par le beau visuel, je retrouve cet aspect en tant que développeur front-end car mon objectif est de présenter à l'utilisateur des sites avec une navigation fluide et agréable visuellement.\n\nSur mon temps libre, j'apprends à utiliser le logiciel Blender. Plus particulièrement la modélisation procédurale qui me fascine.",
         "competences": [
             {
                 "name": "Javascript",

@@ -17,6 +17,12 @@
                     "color": "default"
                 },
                 {
+                    "name": "Cassoulet",
+                    "audio": "/quiz/IAMusic/Plats/cassoulet.mp3",
+                    "text": "/quiz/IAMusic/Plats/cassoulet.txt",
+                    "color": "default"
+                },
+                {
                     "name": "Cookie",
                     "audio": "/quiz/IAMusic/Plats/cookie.mp3",
                     "text": "/quiz/IAMusic/Plats/cookie.txt",
@@ -50,6 +56,12 @@
                     "name": "Lasagne",
                     "audio": "/quiz/IAMusic/Plats/lasagne.mp3",
                     "text": "/quiz/IAMusic/Plats/lasagne.txt",
+                    "color": "default"
+                },
+                {
+                    "name": "Madeleine",
+                    "audio": "/quiz/IAMusic/Plats/madeleine.mp3",
+                    "text": "/quiz/IAMusic/Plats/madeleine.txt",
                     "color": "default"
                 },
                 {
